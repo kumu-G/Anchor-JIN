@@ -1,0 +1,11 @@
+[programs.localnet]
+tic_tac_toe = "9hnHB5RqEKEHjwdJDxRJw7WNfybu4gWjGd8pxXLEGiXr"
+
+[provider]
+cluster = "localnet"
+wallet = "./id.json"
+
+
+[scripts]
+test = "yarn run mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
+
